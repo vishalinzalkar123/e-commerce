@@ -48,3 +48,11 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
+
+gem 'bcrypt'         # secure password hashing
+gem 'jwt'.           # token auth
+gem 'rspec-rails'    # serious testing
+gem 'pundit'         # authorization
+gem 'sidekiq'        # background jobs
+gem 'redis'          # caching + jobs
+gem 'rack-cors'      # frontend communication
