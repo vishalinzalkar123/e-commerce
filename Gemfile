@@ -50,7 +50,7 @@ group :development, :test do
 end
 
 gem 'bcrypt'         # secure password hashing
-gem 'jwt'.           # token auth
+gem 'jwt'            # token auth
 gem 'rspec-rails'    # serious testing
 gem 'pundit'         # authorization
 gem 'sidekiq'        # background jobs
