@@ -1,0 +1,5 @@
+class AddIndexOnUsersEmail < ActiveRecord::Migration[8.1]
+  def change
+    add_index :users, :email, unique: true
+  end
+end
