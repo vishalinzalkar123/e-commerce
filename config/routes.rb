@@ -10,6 +10,10 @@ Rails.application.routes.draw do
 
   namespaces :api do
     namespaces :v1 do
+      post 'login', to: 'auth#login'
+      post 'refresh', to: 'auth#refresh'
+
+      resources :products
     end
   end
 end
