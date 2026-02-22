@@ -35,3 +35,22 @@ Phases of Development:-
         Required gems installed
         No business logic yet.
         Foundation must be clean.
+
+2nd =>
+    Separation of concerns
+    Role-based access control
+    Policy objects
+    Centralized error handling
+    Secure endpoint protection
+    Clean architecture layering
+
+3rd =>
+    Self-referential associations
+    Polymorphic associations
+    Counter cache
+    Query objects
+    Scope chaining
+    N+1 problem
+    Index optimization
+    Clean controller architecture
+    Domain separation thinking
