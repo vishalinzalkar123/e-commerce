@@ -2,7 +2,9 @@ class Api::V1::ProductsController < ApplicationController
   before_action :set_product, only: [:show, :update, :destroy]
 
   def index
-    products = Product.all
+    # products = Product.all -- old
+    # products = Product.includes(:category, :reviews) --2nd old
+    products = Products::FilterQuery.new(Product.includes(:category, :reviews), params).call
     render json: products
   end
 
